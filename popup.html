@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>InstaScam</h1>
+
+    <div id="status">Checking site...</div>
+    <button id="reportBtn" style="display:none;">Report This Site</button>
+  
+    <div id="flaggedKeywordsSection" class="section" style="display: none;">
+      <h4 class="status-warning">Suspicious Phrases Detected:</h4>
+      <ul id="flaggedKeywordsList"></ul>
+    </div>
+  
+    <div id="tipsSection" class="section" style="display: none;">
+      <h4>Before You Trust This Site:</h4>
+      <ul>
+        <li>Check reviews on Trustpilot or Reddit</li>
+        <li>Check for refund/return policy</li>
+        <li>Look for real contact info</li>
+        <li>Check for Social Media presence</li>
+        <li>Do the images look AI-generated?</li>
+        <li>Reverse image search product photos</li>
+        <li>Do the company location details match up?</li>
+        <li>Ask a friend or family member!</li>
+      </ul>
+    </div>
+  
+    <div class="branding">Powered by InstaScam</div>
+
+  <script type="module" src="dexie.js"></script>
+  <script type="module" src="popup.js"></script>
+
+
+</body>
+</html>
