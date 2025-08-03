@@ -1,0 +1,27 @@
+# To do for InstaScam v 2.0.0
+
+## Backend
+
+Decide about backend feature and syncing between users.
+Show a count for how many users have reported this site - this would involve collecting browsing history. 
+
+## Scam Detection
+
+AI Generated Images
+Location based information - check all information adds up.
+Domain inconsistencies.
+
+## UI
+
+Add a history page to see previously reported sites
+Unreport sites
+If the site is detected as suspicious, show reporting feature. Otherwise give the option to send a form with a reason why the site should be reported.
+Multiple languages?
+
+## Testing 
+
+Add tests
+
+## Logo
+
+Improve logo
